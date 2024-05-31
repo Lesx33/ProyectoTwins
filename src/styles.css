@@ -1,1 +1,31 @@
 /* You can add global styles to this file, and also import other style files */
+/* Archivo: styles.css */
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+
+.styled-button {
+  background-color: #4CAF50; /* Color de fondo */
+  border: none; /* Sin bordes */
+  color: white; /* Color del texto */
+  padding: 15px 32px; /* Relleno (padding) */
+  text-align: center; /* Alineación del texto */
+  text-decoration: none; /* Sin subrayado */
+  display: inline-block; /* Bloque en línea */
+  font-size: 16px; /* Tamaño de fuente */
+  margin: 4px 2px; /* Márgenes */
+  cursor: pointer; /* Cursor tipo mano */
+  border-radius: 12px; /* Bordes redondeados */
+  transition: background-color 0.3s; /* Transición para el efecto hover */
+}
+
+.styled-button:hover {
+  background-color: #45a049; /* Color de fondo en estado hover */
+}
